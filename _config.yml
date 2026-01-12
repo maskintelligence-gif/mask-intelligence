@@ -1,53 +1,35 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MASK INTELLIGENCE
+title: "MASK INTELLIGENCE"
 email: maskintelligence@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Mask Intelligence is your dedicated partner for digital transformation. We specialize in translating business vision into powerful, custom-built online realities—from professional websites and e-commerce stores to complex web applications and analytics dashboards.
-We believe every business has unique potential waiting to be unlocked. Our mission is to remove the barriers of digital complexity. We handle the intricate technical "mask work"—the coding, integration, and systems architecture—so you can confidently present the best face of your business to the world.
-twitter_username: @MASKINTELL
+description: >-
+  Mask Intelligence is your dedicated partner for digital transformation.
+  We specialize in translating business vision into powerful, custom-built
+  online realities—from professional websites and e-commerce stores to
+  complex web applications and analytics dashboards.
+
+  We believe every business has unique potential waiting to be unlocked.
+  Our mission is to remove the barriers of digital complexity.
+
+url: "https://maskintelligence.github.io"
+baseurl: ""
+
+twitter_username: MASKINTELL
 github_username: maskintelligence-gif
+
 minimal_mistakes_skin: default
 search: true
 
-# Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
+theme: minimal-mistakes-jekyll
+
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+timezone: Africa/Kampala
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -57,37 +39,30 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "TEAM MASK"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "WE ARE AMAZED IF OUR ARTICLE'S HELP YOU."
+  name: "TEAM MASK"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "We are amazed if our articles help you."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://mask-intelligence.web.app"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/@MASKINTELL"
+      url: "https://twitter.com/MASKINTELL"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/maskintelligence-gif"
-   # - label: "Instagram"
-     # icon: "fab fa-fw fa-instagram"
-     # url: "https://instagram.com/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/@MASKINTELL"
+      url: "https://twitter.com/MASKINTELL"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/maskintelligence-gif"
-   # - label: "Instagram"
-   #   icon: "fab fa-fw fa-instagram"
-    #  url: "https://instagram.com/"
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -98,7 +73,7 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+
   - scope:
       path: "_pages"
       type: pages
@@ -109,6 +84,7 @@ defaults:
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
