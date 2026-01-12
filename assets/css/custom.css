@@ -1,0 +1,13 @@
+.site-title {
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page__content p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
