@@ -1,11 +1,12 @@
+---
 title: "MASK INTELLIGENCE"
 email: maskintelligence@gmail.com
+
 description: >-
   Mask Intelligence is your dedicated partner for digital transformation.
   We specialize in translating business vision into powerful, custom-built
   online realities—from professional websites and e-commerce stores to
   complex web applications and analytics dashboards.
-
   We believe every business has unique potential waiting to be unlocked.
   Our mission is to remove the barriers of digital complexity.
 
@@ -19,12 +20,11 @@ minimal_mistakes_skin: default
 search: true
 
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-
 timezone: Africa/Kampala
 
 include:
