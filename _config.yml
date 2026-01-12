@@ -17,7 +17,8 @@ twitter_username: MASKINTELL
 github_username: maskintelligence-gif
 
 minimal_mistakes_skin: default
-search: true
+custom_css:
+  - /assets/css/custom.css
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
