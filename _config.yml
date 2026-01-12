@@ -17,6 +17,7 @@ twitter_username: MASKINTELL
 github_username: maskintelligence-gif
 
 minimal_mistakes_skin: default
+
 custom_css:
   - /assets/css/custom.css
 
