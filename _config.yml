@@ -18,6 +18,9 @@ github_username: maskintelligence-gif
 
 minimal_mistakes_skin: default
 
+# Custom CSS
+head_scripts:
+  - /assets/css/custom.css
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
